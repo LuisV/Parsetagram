@@ -18,6 +18,7 @@
 		7E31EFF2222D10420009A675 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31EFF1222D10420009A675 /* FeedViewController.swift */; };
 		7E31EFF4222DA0670009A675 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31EFF3222DA0670009A675 /* CameraViewController.swift */; };
 		7E31EFF6222DB3C10009A675 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31EFF5222DB3C10009A675 /* PostCell.swift */; };
+		7ED06BC02236C14C00FBA17E /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED06BBF2236C14B00FBA17E /* CommentCell.swift */; };
 		E5855E15CE52BD1C2DF79883 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB99F303F069AE1B601C99EF /* Pods_Parstagram.framework */; };
 		F9D5320124CC63604FDB0D2A /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4105355A8DBE4F755BFB20 /* Pods_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		7E31EFF3222DA0670009A675 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		7E31EFF5222DB3C10009A675 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7E99FEE9061C185B8A94D001 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED06BBF2236C14B00FBA17E /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		BB99F303F069AE1B601C99EF /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6804261A1B60795A824FEAD /* Pods-ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0130CF1DAB85C67EC811B66 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 			children = (
 				7E31EF872224A0740009A675 /* AppDelegate.swift */,
 				7E31EF8B2224A0740009A675 /* Main.storyboard */,
+				7ED06BBF2236C14B00FBA17E /* CommentCell.swift */,
 				7E31EFF5222DB3C10009A675 /* PostCell.swift */,
 				7E31EFF3222DA0670009A675 /* CameraViewController.swift */,
 				7E31EF8E2224A0790009A675 /* Assets.xcassets */,
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
@@ -327,6 +331,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
@@ -413,6 +418,7 @@
 				7E31EFF2222D10420009A675 /* FeedViewController.swift in Sources */,
 				7E31EF882224A0740009A675 /* AppDelegate.swift in Sources */,
 				7E31EFF6222DB3C10009A675 /* PostCell.swift in Sources */,
+				7ED06BC02236C14C00FBA17E /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

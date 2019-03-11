@@ -9,6 +9,7 @@ target 'Parstagram' do
   pod 'Toast-Swift', '~> 4.0.0'
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
 
   target 'ParstagramTests' do
     inherit! :search_paths
